@@ -1,0 +1,504 @@
+[
+    {
+        "dimension summary": {
+            "Overall": {
+                "jseap": {
+                    "pre_incident_records": 294302,
+                    "post_incident_records": 106946,
+                    "pre_incident_median": 839,
+                    "post_incident_median": 898,
+                    "delta": 59
+                },
+                "i_29i": {
+                    "pre_incident_records": 283581,
+                    "post_incident_records": 103497,
+                    "pre_incident_median": 380,
+                    "post_incident_median": 384,
+                    "delta": 4
+                },
+                "ex3": {
+                    "pre_incident_records": 294997,
+                    "post_incident_records": 107250,
+                    "pre_incident_median": 3016,
+                    "post_incident_median": 3150,
+                    "delta": 134
+                }
+            },
+            "dccolo": {
+                "jseap": {
+                    "values": "lvs,slc",
+                    "delta": 80.0,
+                    "impact percentage": 50.0
+                },
+                "ex3": {
+                    "values": "lvs,slc,rno",
+                    "delta": 139.0,
+                    "impact percentage": 75.0
+                }
+            },
+            "browser_type": {
+                "jseap": {
+                    "values": "Android Browser,Chrome,Chrome Mobile,Firefox,Internet Explorer,Other,Safari",
+                    "delta": 69.0,
+                    "impact percentage": 64.0
+                },
+                "ex3": {
+                    "values": "Android Browser,Chrome,Chrome Mobile,Firefox,Internet Explorer,Safari",
+                    "delta": 180.0,
+                    "impact percentage": 55.0
+                }
+            },
+            "browser_version": {
+                "jseap": {
+                    "values": "Android Browser_nan,Chrome_70,Chrome_80,Firefox_74,Internet Explorer_11,Other_nan,Safari_13,others",
+                    "delta": 70.0,
+                    "impact percentage": 89.0
+                },
+                "ex3": {
+                    "values": "Android Browser_nan,Chrome_70,Chrome_80,Firefox_74,Internet Explorer_11,Safari_13,others",
+                    "delta": 167.0,
+                    "impact percentage": 78.0
+                }
+            },
+            "ISP": {
+                "jseap": {
+                    "values": "deutsche telekom ag,ewe tel gmbh,kabel bw gmbh,others,unitymedia nrw gmbh,versatel deutschland gmbh,vodafone germany,vodafone kabel deutschland gmbh",
+                    "delta": 65.0,
+                    "impact percentage": 89.0
+                },
+                "ex3": {
+                    "values": "deutsche telekom ag,ewe tel gmbh,kabel bw gmbh,others,unitymedia nrw gmbh,versatel deutschland gmbh,vodafone germany,vodafone kabel deutschland gmbh",
+                    "delta": 161.0,
+                    "impact percentage": 89.0
+                }
+            }
+        },
+        "insights": {
+            "dccolo": {
+                "lvs": {
+                    "jseap": {
+                        "delta": 65.0,
+                        "pre_incident_median": 857.0,
+                        "post_incident_median": 922.0,
+                        "pre_incident_samples": 93629,
+                        "post_incident_samples": 34250
+                    },
+                    "ex3": {
+                        "delta": 142.0,
+                        "pre_incident_median": 3067.0,
+                        "post_incident_median": 3209.0,
+                        "pre_incident_samples": 93787,
+                        "post_incident_samples": 34327
+                    }
+                },
+                "slc": {
+                    "jseap": {
+                        "delta": 94.0,
+                        "pre_incident_median": 884.0,
+                        "post_incident_median": 978.0,
+                        "pre_incident_samples": 94183,
+                        "post_incident_samples": 33826
+                    },
+                    "ex3": {
+                        "delta": 185.0,
+                        "pre_incident_median": 3065.0,
+                        "post_incident_median": 3250.0,
+                        "pre_incident_samples": 94336,
+                        "post_incident_samples": 33897
+                    }
+                },
+                "rno": {
+                    "ex3": {
+                        "delta": 90.0,
+                        "pre_incident_median": 3041.0,
+                        "post_incident_median": 3131.0,
+                        "pre_incident_samples": 93476,
+                        "post_incident_samples": 34183
+                    }
+                }
+            },
+            "browser_type": {
+                "Android Browser": {
+                    "jseap": {
+                        "delta": 77.0,
+                        "pre_incident_median": 1063.0,
+                        "post_incident_median": 1140.0,
+                        "pre_incident_samples": 10875,
+                        "post_incident_samples": 4053,
+                        "correlated_features": "browser_version___Android Browser_nan"
+                    },
+                    "ex3": {
+                        "delta": 177.0,
+                        "pre_incident_median": 4830.0,
+                        "post_incident_median": 5007.0,
+                        "pre_incident_samples": 10936,
+                        "post_incident_samples": 4075,
+                        "correlated_features": "browser_version___Android Browser_nan"
+                    }
+                },
+                "Chrome": {
+                    "jseap": {
+                        "delta": 61.0,
+                        "pre_incident_median": 827.0,
+                        "post_incident_median": 888.0,
+                        "pre_incident_samples": 118670,
+                        "post_incident_samples": 43108,
+                        "correlated_features": "browser_version___Chrome_80"
+                    },
+                    "ex3": {
+                        "delta": 152.0,
+                        "pre_incident_median": 2996.0,
+                        "post_incident_median": 3148.0,
+                        "pre_incident_samples": 118683,
+                        "post_incident_samples": 43115,
+                        "correlated_features": "browser_version___Chrome_80"
+                    }
+                },
+                "Chrome Mobile": {
+                    "jseap": {
+                        "delta": 69.0,
+                        "pre_incident_median": 888.0,
+                        "post_incident_median": 957.0,
+                        "pre_incident_samples": 830,
+                        "post_incident_samples": 518
+                    },
+                    "ex3": {
+                        "delta": 381.5,
+                        "pre_incident_median": 3488.0,
+                        "post_incident_median": 3869.5,
+                        "pre_incident_samples": 831,
+                        "post_incident_samples": 518
+                    }
+                },
+                "Firefox": {
+                    "jseap": {
+                        "delta": 54.0,
+                        "pre_incident_median": 834.0,
+                        "post_incident_median": 888.0,
+                        "pre_incident_samples": 131124,
+                        "post_incident_samples": 46250,
+                        "correlated_features": "browser_version___Firefox_74"
+                    },
+                    "ex3": {
+                        "delta": 106.0,
+                        "pre_incident_median": 2862.0,
+                        "post_incident_median": 2968.0,
+                        "pre_incident_samples": 131465,
+                        "post_incident_samples": 46426,
+                        "correlated_features": "browser_version___Firefox_74"
+                    }
+                },
+                "Internet Explorer": {
+                    "jseap": {
+                        "delta": 73.0,
+                        "pre_incident_median": 847.0,
+                        "post_incident_median": 920.0,
+                        "pre_incident_samples": 8954,
+                        "post_incident_samples": 3413,
+                        "correlated_features": "browser_version___Internet Explorer_11"
+                    },
+                    "ex3": {
+                        "delta": 207.0,
+                        "pre_incident_median": 3896.0,
+                        "post_incident_median": 4103.0,
+                        "pre_incident_samples": 8985,
+                        "post_incident_samples": 3427,
+                        "correlated_features": "browser_version___Internet Explorer_11"
+                    }
+                },
+                "Other": {
+                    "jseap": {
+                        "delta": 85.0,
+                        "pre_incident_median": 981.0,
+                        "post_incident_median": 1066.0,
+                        "pre_incident_samples": 3172,
+                        "post_incident_samples": 1520,
+                        "correlated_features": "browser_version___Other_nan"
+                    }
+                },
+                "Safari": {
+                    "jseap": {
+                        "delta": 63.0,
+                        "pre_incident_median": 864.0,
+                        "post_incident_median": 927.0,
+                        "pre_incident_samples": 16672,
+                        "post_incident_samples": 6737,
+                        "correlated_features": "browser_version___Safari_13"
+                    },
+                    "ex3": {
+                        "delta": 58.0,
+                        "pre_incident_median": 2718.0,
+                        "post_incident_median": 2776.0,
+                        "pre_incident_samples": 16916,
+                        "post_incident_samples": 6815,
+                        "correlated_features": "browser_version___Safari_13"
+                    }
+                }
+            },
+            "browser_version": {
+                "Android Browser_nan": {
+                    "jseap": {
+                        "delta": 81.5,
+                        "pre_incident_median": 1059.0,
+                        "post_incident_median": 1140.5,
+                        "pre_incident_samples": 10568,
+                        "post_incident_samples": 3924
+                    },
+                    "ex3": {
+                        "delta": 176.0,
+                        "pre_incident_median": 4766.0,
+                        "post_incident_median": 4942.0,
+                        "pre_incident_samples": 10568,
+                        "post_incident_samples": 3924
+                    }
+                },
+                "Chrome_70": {
+                    "jseap": {
+                        "delta": 65.0,
+                        "pre_incident_median": 848.0,
+                        "post_incident_median": 913.0,
+                        "pre_incident_samples": 25837,
+                        "post_incident_samples": 9208
+                    },
+                    "ex3": {
+                        "delta": 180.5,
+                        "pre_incident_median": 3189.0,
+                        "post_incident_median": 3369.5,
+                        "pre_incident_samples": 25837,
+                        "post_incident_samples": 9208
+                    }
+                },
+                "Chrome_80": {
+                    "jseap": {
+                        "delta": 62.0,
+                        "pre_incident_median": 817.0,
+                        "post_incident_median": 879.0,
+                        "pre_incident_samples": 83069,
+                        "post_incident_samples": 31019
+                    },
+                    "ex3": {
+                        "delta": 154.0,
+                        "pre_incident_median": 2906.0,
+                        "post_incident_median": 3060.0,
+                        "pre_incident_samples": 83073,
+                        "post_incident_samples": 31021
+                    }
+                },
+                "Firefox_74": {
+                    "jseap": {
+                        "delta": 60.0,
+                        "pre_incident_median": 823.0,
+                        "post_incident_median": 883.0,
+                        "pre_incident_samples": 84402,
+                        "post_incident_samples": 40350
+                    },
+                    "ex3": {
+                        "delta": 118.0,
+                        "pre_incident_median": 2770.0,
+                        "post_incident_median": 2888.0,
+                        "pre_incident_samples": 84569,
+                        "post_incident_samples": 40457
+                    }
+                },
+                "Internet Explorer_11": {
+                    "jseap": {
+                        "delta": 73.0,
+                        "pre_incident_median": 847.0,
+                        "post_incident_median": 920.0,
+                        "pre_incident_samples": 8932,
+                        "post_incident_samples": 3412
+                    },
+                    "ex3": {
+                        "delta": 210.5,
+                        "pre_incident_median": 3893.0,
+                        "post_incident_median": 4103.5,
+                        "pre_incident_samples": 8961,
+                        "post_incident_samples": 3426
+                    }
+                },
+                "Other_nan": {
+                    "jseap": {
+                        "delta": 85.0,
+                        "pre_incident_median": 981.0,
+                        "post_incident_median": 1066.0,
+                        "pre_incident_samples": 3172,
+                        "post_incident_samples": 1520
+                    }
+                },
+                "Safari_13": {
+                    "jseap": {
+                        "delta": 75.0,
+                        "pre_incident_median": 844.0,
+                        "post_incident_median": 919.0,
+                        "pre_incident_samples": 9770,
+                        "post_incident_samples": 4274
+                    },
+                    "ex3": {
+                        "delta": 114.0,
+                        "pre_incident_median": 2419.0,
+                        "post_incident_median": 2533.0,
+                        "pre_incident_samples": 9875,
+                        "post_incident_samples": 4301
+                    }
+                },
+                "others": {
+                    "jseap": {
+                        "delta": 58.0,
+                        "pre_incident_median": 866.0,
+                        "post_incident_median": 924.0,
+                        "pre_incident_samples": 36757,
+                        "post_incident_samples": 12479
+                    },
+                    "ex3": {
+                        "delta": 213.0,
+                        "pre_incident_median": 3475.0,
+                        "post_incident_median": 3688.0,
+                        "pre_incident_samples": 37109,
+                        "post_incident_samples": 12617
+                    }
+                }
+            },
+            "ISP": {
+                "deutsche telekom ag": {
+                    "jseap": {
+                        "delta": 56.0,
+                        "pre_incident_median": 826.0,
+                        "post_incident_median": 882.0,
+                        "pre_incident_samples": 118344,
+                        "post_incident_samples": 42967
+                    },
+                    "ex3": {
+                        "delta": 93.0,
+                        "pre_incident_median": 2955.0,
+                        "post_incident_median": 3048.0,
+                        "pre_incident_samples": 118592,
+                        "post_incident_samples": 43064
+                    }
+                },
+                "ewe tel gmbh": {
+                    "jseap": {
+                        "delta": 72.0,
+                        "pre_incident_median": 843.0,
+                        "post_incident_median": 915.0,
+                        "pre_incident_samples": 5606,
+                        "post_incident_samples": 2192
+                    },
+                    "ex3": {
+                        "delta": 56.5,
+                        "pre_incident_median": 3059.0,
+                        "post_incident_median": 3115.5,
+                        "pre_incident_samples": 5615,
+                        "post_incident_samples": 2192
+                    }
+                },
+                "kabel bw gmbh": {
+                    "jseap": {
+                        "delta": 83.0,
+                        "pre_incident_median": 831.0,
+                        "post_incident_median": 914.0,
+                        "pre_incident_samples": 8974,
+                        "post_incident_samples": 2955
+                    },
+                    "ex3": {
+                        "delta": 290.5,
+                        "pre_incident_median": 2856.0,
+                        "post_incident_median": 3146.5,
+                        "pre_incident_samples": 9009,
+                        "post_incident_samples": 2966
+                    }
+                },
+                "others": {
+                    "jseap": {
+                        "delta": 67.0,
+                        "pre_incident_median": 850.0,
+                        "post_incident_median": 917.0,
+                        "pre_incident_samples": 59196,
+                        "post_incident_samples": 21247
+                    },
+                    "ex3": {
+                        "delta": 162.0,
+                        "pre_incident_median": 3106.0,
+                        "post_incident_median": 3268.0,
+                        "pre_incident_samples": 59302,
+                        "post_incident_samples": 21329
+                    }
+                },
+                "unitymedia nrw gmbh": {
+                    "jseap": {
+                        "delta": 54.0,
+                        "pre_incident_median": 844.0,
+                        "post_incident_median": 898.0,
+                        "pre_incident_samples": 16678,
+                        "post_incident_samples": 6665
+                    },
+                    "ex3": {
+                        "delta": 107.0,
+                        "pre_incident_median": 2995.0,
+                        "post_incident_median": 3102.0,
+                        "pre_incident_samples": 16727,
+                        "post_incident_samples": 6673
+                    }
+                },
+                "versatel deutschland gmbh": {
+                    "jseap": {
+                        "delta": 61.0,
+                        "pre_incident_median": 822.0,
+                        "post_incident_median": 883.0,
+                        "pre_incident_samples": 14484,
+                        "post_incident_samples": 5430
+                    },
+                    "ex3": {
+                        "delta": 172.0,
+                        "pre_incident_median": 2841.0,
+                        "post_incident_median": 3013.0,
+                        "pre_incident_samples": 14539,
+                        "post_incident_samples": 5445
+                    }
+                },
+                "vodafone germany": {
+                    "jseap": {
+                        "delta": 51.0,
+                        "pre_incident_median": 872.0,
+                        "post_incident_median": 923.0,
+                        "pre_incident_samples": 28218,
+                        "post_incident_samples": 10235
+                    },
+                    "ex3": {
+                        "delta": 191.0,
+                        "pre_incident_median": 3308.0,
+                        "post_incident_median": 3499.0,
+                        "pre_incident_samples": 28294,
+                        "post_incident_samples": 10267
+                    }
+                },
+                "vodafone kabel deutschland gmbh": {
+                    "jseap": {
+                        "delta": 77.0,
+                        "pre_incident_median": 843.0,
+                        "post_incident_median": 920.0,
+                        "pre_incident_samples": 25438,
+                        "post_incident_samples": 8672
+                    },
+                    "ex3": {
+                        "delta": 215.0,
+                        "pre_incident_median": 2957.0,
+                        "post_incident_median": 3172.0,
+                        "pre_incident_samples": 25510,
+                        "post_incident_samples": 8713
+                    }
+                }
+            }
+        },
+        "metadata": {
+            "job_id": "sitespeed_viewitem_de_latency_by_browsers_p50",
+            "pre_time_range": "[['2020-03-25T12:00:00', '2020-03-25T13:00:00'], ['2020-03-18T12:00:00', '2020-03-18T13:00:00'], ['2020-03-11T12:00:00', '2020-03-11T13:00:00']]",
+            "post_time_range": "['2020-04-01T12:00:00', '2020-04-01T13:00:00']",
+            "db_key": "3e1b228d4cb309f7d1643b88be7bbe6d",
+            "use_case": "web_speed",
+            "filters": "pn.keyword:77ANDcmd.keyword:ViewItemPageRaptor",
+            "categorical columns": "dccolo,dd_bf,dd_bv,clientISP ",
+            "correlation threshold": 0.6,
+            "job_run_time": "2020-06-02T17:48:35.201956"
+        }
+    }
+]

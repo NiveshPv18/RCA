@@ -1,0 +1,18 @@
+<mat-form-field>
+<mat-select (selectionChange)="this.getDim2Opts(); getChartData()" [(value)]="selectedDim1" placeholder="">
+  <mat-option *ngFor="let opt of dim1Opts" [value]="opt">{{opt}}</mat-option>
+</mat-select>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-select (selectionChange)="getChartData()" [(value)]="selectedDim2" placeholder="">
+    <mat-option *ngFor="let opt of dim2Opts" [value]="opt">{{opt}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<div class="chart">
+  <canvas baseChart
+          [datasets]="radarChartData"
+          [labels]="radarChartLabels"
+          [chartType]="radarChartType"></canvas>
+</div>
